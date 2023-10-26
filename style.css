@@ -11,18 +11,90 @@ body{
     background-image: url(./assets/bg.png);
     background-size: 100%;
     background-color: black;
+    color: white;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    padding-top: 10vh;
+    padding-top: 3vh;
 }
 
 
 h1{
     color: #5030B3;
-    font-size: 3.2em;
+    font-size: 4.2em;
     font-weight: bolder;
 }
 
 .intro{
-    margin-top: 2;
+    margin-top: 3vh;
+    margin-left: -33em;
+}
+
+/* Play button */
+#playbuttondiv{
+    cursor: pointer;
+    display: flex;
+    width: 13em;
+    margin-top: -2em;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 60rem;
+}
+
+
+
+/* Game */
+
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.scoreboard h2{
+    font-size: 80px;
+}
+
+
+.gameDisplay{
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+    align-items: center;
+}
+.handDisplay{
+    border:rgb(245, 187, 59) solid 5px;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 8em;
+    
+}
+
+.handDisplay h3{
+    font-size: 30px;
+    
+}
+/* the hand signs */
+.handsigns img{
+    width: 400px;
+    top: 300px;
+    left: 100px;
+    position: absolute;
+}
+
+/* hand logos */
+
+.handlogos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bothandsigns img{
+    /* transform: rotate(180deg); */
+    width: 400px;
+    top: 300px;
+    left: 64.8%;
+    position: absolute;
 }
