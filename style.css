@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Poppins&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./assets/bg.png);
+    background-size: 100%;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+
+h1{
+    color: #5030B3;
+    font-size: 3.2em;
+    font-weight: bolder;
+}
+
+.intro{
+    margin-top: 2;
+}
